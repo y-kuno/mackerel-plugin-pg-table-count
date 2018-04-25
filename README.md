@@ -11,7 +11,7 @@ mkr plugin install y-kuno/mackerel-plugin-pg-table-count
 ## Synopsis
 
 ```shell
-mackerel-plugin-postgres-table [-host=<host>] [-port=<port>] [-user=<user>] [-password=<password>] [-database=<databasename>] [-tabel=<tabel>] [-column=<column>] [-option=<option>] [-sslmode=<sslmode>] [-metric-key-prefix=<prefix>]
+mackerel-plugin-postgres-table [-host=<host>] [-port=<port>] [-user=<user>] [-password=<password>] [-database=<database>] [-table=<table>] [-column=<column>] [-option=<option>] [-sslmode=<sslmode>] [-metric-key-prefix=<prefix>]
 ```
 
 ## Example of mackerel-agent.conf

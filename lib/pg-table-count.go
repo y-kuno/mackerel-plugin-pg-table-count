@@ -94,7 +94,7 @@ func Do() {
 	optUser := flag.String("user", "postgres", "Username")
 	optPassword := flag.String("password", os.Getenv("PGPASSEORD"), "Password")
 	optDatabase := flag.String("database", "", "Database")
-	optTable := flag.String("tabel", "", "Table")
+	optTable := flag.String("table", "", "Table")
 	optColumn := flag.String("column", "*", "Count column")
 	optOption := flag.String("option", "", "Query option")
 	optSSLmode := flag.String("sslmode", "disable", "Whether or not to use SSL")
